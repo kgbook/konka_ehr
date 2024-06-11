@@ -10,7 +10,7 @@
 
 ## Web Driver
  
-目前支持 firefow, chrome, edege, safari 浏览器, 默认使用 firefox 浏览器; 注意 safari 浏览器需要使用者提前配置或使能。
+目前支持 firefox, chrome, edege, safari 浏览器, 默认使用 firefox 浏览器; 注意 safari 浏览器需要使用者提前配置或使能。
  
 ### 更新 webdriver
 
