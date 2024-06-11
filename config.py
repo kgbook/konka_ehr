@@ -25,8 +25,7 @@ class Config:
                 raise RuntimeError(f'section {section} not found')
             else:
                 if not conf.has_option(section, option):
-                    print(f'option {option} not found')
-                    raise None
+                    raise RuntimeError(f'option {option} not found')
                 return conf[section][option]
 
     @property
