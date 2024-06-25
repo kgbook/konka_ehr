@@ -32,6 +32,12 @@
 >
 >Authorize safaridriver to launch the XPC service that hosts the local web server. To permit this, manually run /usr/bin/safaridriver once and follow the authentication prompt.
 
+conf/config.ini 文件中 `driver` 项为 safari :
+```ini
+driver=safari
+driverPath=/usr/bin/safaridriver
+```
+
 ## TODO
 
 1. 部分网页元素较复杂，不太好定位，需要进一步研究; 目前提交环节需人工介入，选择审批人并提交。
